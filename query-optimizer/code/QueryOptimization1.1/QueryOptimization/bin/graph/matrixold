@@ -1,0 +1,24 @@
+package graph;
+
+import java.util.Map;
+import java.util.Set;
+
+public class Matrix {
+	Edge[][]graph;
+	public Matrix(int len)
+	{
+		graph = new Edge[len][len]; 
+	}
+	public void makeConnection(int i, int j, Map<Byte,Byte> map)
+	{
+		graph[i][j].setTrue();
+		graph[j][i].setTrue();
+		Set<Byte> s = map.keySet();
+		for(Byte x : s)
+		{
+			graph[i][j].setjoinVariable(x, map.get(x));
+			graph[j][i].setjoinVariable(map.get(x),x);
+		}
+		
+	}
+}
