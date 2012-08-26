@@ -1,0 +1,17 @@
+FN ISI Export Format
+VR 1.0
+PT J
+AU Kern, MK
+   Stormont, S
+AF Kern, M. Kothleen
+   Stormont, Sam
+TI Looking to connect - Technical challenges that impede the growth of
+   virtual reference
+SO REFERENCE & USER SERVICES QUARTERLY
+LA English
+DT Article
+ID CHAT
+C1 [Kern, M. Kothleen] Univ Illinois, Urbana, IL 61801 USA.
+   [Stormont, Sam] Penn State Abington, Abington, PA USA.
+RP Kern, MK, Univ Illinois, 300 Lib,1408 W Gregory Dr, Urbana, IL 61801
+   USA.
